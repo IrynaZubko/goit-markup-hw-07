@@ -39,3 +39,7 @@ $letter-spacings: (
 @function getLetterSpacing($key) {
     @return map-get($letter-spacings, $key);
 }
+
+$cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+
+$duration: 250ms;

@@ -1,0 +1,12 @@
+.header {
+    border: 1px solid getColor('border');
+}
+
+.container {
+    @extend %container;
+}
+
+.container--centered {
+    @include centeredFlex;
+}
+

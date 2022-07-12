@@ -1,0 +1,7 @@
+.body {
+    background-color: getColor('primary-white');
+    color: getColor('text-main');
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: getLetterSpacing('main');
+}

@@ -1,0 +1,15 @@
+.section {
+    @include section;
+}
+
+.section__title {
+    @extend %section-title;
+}
+
+.section__title--visually-hidden {
+    @extend %visually-hidden;
+}
+
+.section--padding-top-removed {
+    @include section($top: 0);
+}
