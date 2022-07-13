@@ -4,11 +4,11 @@
 }
 
 .peculiarities-list__item {
-    $padding: 30px;
-    flex-basis: calc((100% - $padding * 3) / 4);
+    $margin: 30px;
+    flex-basis: calc((100% - $margin * 3) / 4);
 
     &:not(:last-child) {
-            margin-right: $padding;
+            margin-right: $margin;
         }
 }
 
@@ -22,6 +22,7 @@
 }
 
 .peculiarities-list__title {
+    @extend %title;
     margin-bottom: 10px;
 
     font-weight: 700;

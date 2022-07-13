@@ -17,6 +17,7 @@
 }
 
 %section-title {
+    @extend %title;
     margin-bottom: 50px;
     
     font-weight: 700;
@@ -67,4 +68,17 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: getLetterSpacing('accent');
+}
+
+%footer-title {
+    display: block;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: getLetterSpacing('main');
+    text-transform: uppercase;
+
+    color: getColor('primary-white');
 }
