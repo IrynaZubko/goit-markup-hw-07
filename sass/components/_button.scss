@@ -26,6 +26,7 @@
 
 .button--centered {
     @include centeredFlex;
+    margin: 0 auto;
 }
 
 .button__icon {

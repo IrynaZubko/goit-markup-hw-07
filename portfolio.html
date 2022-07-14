@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="html">
 
 <head>
     <meta charset="UTF-8">
@@ -15,10 +15,10 @@
     <title>Портфолио</title>
 </head>
 
-<body>
+<body class="body">
     <!-- Header -->
     <header class="header">
-        <div class="container">
+        <div class="container container--centered">
             <!-- navigation -->
             <nav class="site-nav">
                 <!-- logo -->
@@ -168,7 +168,7 @@
                         <a href="" class="portfolio-card__link">
                             <div class="portfolio-card__image-box">
                                 <img src="./images/magazine.jpg" alt="Журнал" width="370" class="portfolio-card__image">
-                                <p class="portfolio-card-description">
+                                <p class="portfolio-card__description">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                                     получить исчерпывающие сведения о компании или частном лице.
                                 </p>
@@ -184,7 +184,7 @@
                         <a href="" class="portfolio-card__link">
                             <div class="portfolio-card__image-box">
                                 <img src="./images/tag.jpg" alt="Бирка проекта" width="370" class="portfolio-card__image">
-                                <p class="portfolio-card-description">
+                                <p class="portfolio-card__description">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                                     получить исчерпывающие сведения о компании или частном лице.
                                 </p>
@@ -200,7 +200,7 @@
                         <a href="" class="portfolio-card__link">
                             <div class="portfolio-card__image-box">
                                 <img src="./images/worker.jpg" alt="Работа за ноутбуком" width="370" class="portfolio-card__image">
-                                <p class="portfolio-card-description">
+                                <p class="portfolio-card__description">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                                     получить исчерпывающие сведения о компании или частном лице.
                                 </p>
@@ -219,7 +219,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer__container">
             <div class="address">
                 <!-- logo -->
                 <a href="./index.html" lang="en" class="logo-link">Web<span
@@ -244,7 +244,7 @@
                 <ul class="social-links">
                     <li class="social-links__item">
                         <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener nofollow"
-                            aria-label="Инстаграм" class="social-links__link">
+                            aria-label="Инстаграм" class="social-links__link social-links__link--footer">
                             <svg class="social-links__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
@@ -253,7 +253,7 @@
                     </li>
                     <li class="social-links__item">
                         <a href="https://twitter.com" target="_blank" rel="noreferrer noopener nofollow"
-                            aria-label="Твиттер" class="social-links__link">
+                            aria-label="Твиттер" class="social-links__link social-links__link--footer">
                             <svg class="social-links__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg>
@@ -262,7 +262,7 @@
                     </li>
                     <li class="social-links__item">
                         <a href="https://uk-ua.facebook.com" target="_blank" rel="noreferrer noopener nofollow"
-                            aria-label="Фейсбук" class="social-links__link">
+                            aria-label="Фейсбук" class="social-links__link social-links__link--footer">
                             <svg class="social-links__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
@@ -271,7 +271,7 @@
                     </li>
                     <li class="social-links__item">
                         <a href="https://ua.linkedin.com/" target="_blank" rel="noreferrer noopener nofollow"
-                            aria-label="Линкедин" class="social-links__link">
+                            aria-label="Линкедин" class="social-links__link social-links__link--footer">
                             <svg class="social-links__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg>
@@ -281,11 +281,11 @@
                 </ul>
             </div>
             <!-- Mailing list -->
-            <form class="mailing-list">
-                <label for="email" class="mailing-list__label">Подпишитесь на рассылку</label>
-                <div class="mailing-list__send-block">
-                    <input type="email" name="email" id="email" placeholder="E-mail">
-                    <button type="submit" class="button button--with-icon">
+            <form class="mailing-form">
+                <label for="email" class="mailing-form__label">Подпишитесь на рассылку</label>
+                <div class="mailing-form__send-block">
+                    <input type="email" name="email" id="email" placeholder="E-mail" class="mailing-form__input">
+                    <button type="submit" class="button button--centered">
                         Подписаться
                         <svg class="button__icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-send"></use>
