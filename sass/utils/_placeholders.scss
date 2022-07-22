@@ -6,13 +6,10 @@
 }
 
 %list {
-    padding: 0;
-    margin: 0;
     list-style: none;
 }
 
 %title {
-    margin: 0;
     color: getColor('text-accent');
 }
 
@@ -24,10 +21,6 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-}
-
-%paragraph {
-    margin: 0;
 }
 
 %link {

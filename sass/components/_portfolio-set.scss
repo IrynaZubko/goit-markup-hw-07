@@ -36,7 +36,6 @@
 
 .portfolio-card__description {
     @include centeredFlex;
-    @extend %paragraph;
     position: absolute;
     left: 0;
     top: 0;
@@ -81,7 +80,6 @@
 }
 
 .portfolio-card__text {
-    @extend %paragraph;
     font-size: 16px;
     line-height: 1.88;
 }

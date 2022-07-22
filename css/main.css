@@ -6,13 +6,10 @@
 }
 
 .portfolio-set, .buttons-list, .address__list, .regular-costumers-list, .social-links, .our-team-list, .doings-list, .peculiarities-list, .contacts-list, .site-nav__list {
-  padding: 0;
-  margin: 0;
   list-style: none;
 }
 
 .portfolio-card__title, .our-team-list__title, .peculiarities-list__title, .section__title {
-  margin: 0;
   color: #212121;
 }
 
@@ -22,10 +19,6 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
-
-.portfolio-card__text, .portfolio-card__description, .our-team-list__text, .doings-list__description {
-  margin: 0;
 }
 
 .address__link, .contacts-list__link, .logo-link, .site-nav__link {
@@ -76,15 +69,33 @@
   color: #FFFFFF;
 }
 
-.html {
+html {
   scroll-behavior: smooth;
 }
 
-.body {
+body {
   background-color: #FFFFFF;
   color: #757575;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 .button {
@@ -142,7 +153,7 @@
 }
 
 .header {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .container--centered {
@@ -718,7 +729,7 @@
   color: #2196F3;
 }
 
-.user-form__input {
+.user-form__comment, .user-form__input {
   display: block;
   width: 100%;
   padding: 12px;
@@ -730,7 +741,7 @@
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-form__input:hover, .user-form__input:focus {
+.user-form__comment:hover, .user-form__input:hover, .user-form__comment:focus, .user-form__input:focus {
   border-color: #2196F3;
   outline: 1px solid #2196F3;
 }

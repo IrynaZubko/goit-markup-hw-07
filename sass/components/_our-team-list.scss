@@ -39,7 +39,6 @@
 }
 
 .our-team-list__text {
-    @extend %paragraph;
     @extend %team-text;
     margin-bottom: 16px;
 }
